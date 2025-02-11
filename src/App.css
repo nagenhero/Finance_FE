@@ -1,0 +1,85 @@
+.wrapper {
+  min-height: 100vh;
+  background: #000;
+  color: rgb(221, 221, 221);
+  
+}
+
+.main {
+  min-height: calc(100vh - 150px);
+}
+.table,
+tr,
+td,
+th {
+  background: transparent !important;
+  color: white !important;
+}
+
+.in {
+  color: greenyellow !important;
+}
+.out {
+  color: red !important;
+}
+
+.customChart {
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.container_signup
+{
+ background-color:rgba(35, 204, 51, 0.732);
+  background: url('./assets/a1.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+.signupForm
+{
+  /* background-color:rgba(35, 204, 51, 0.732);
+  background: url('./assets/na.jpg') no-repeat center center fixed;
+  background-size: cover; */
+
+  background: rgba(40, 37, 37, 0.498);
+  backdrop-filter: blur(12px);
+}
+.Login_Container 
+{
+  /* background-color:rgba(15, 22, 15, 0.823); */
+  background: url('./assets/a1.jpg') no-repeat center center fixed;
+  background-size: cover;
+  height: 70vh;
+  /* position:absolute; */
+}
+.signin_Form 
+{
+  /* background-color: aquamarine; */
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+  color: white;
+  backdrop-filter: blur(19px);
+}
+.back-video
+{
+  position: absolute;
+  right: 0;
+  bottom: 20px;
+
+  
+  
+ 
+}
+.navbar
+{
+  z-index: 44;
+}
+.footer
+{
+  z-index: 99 !important;
+}
+.hello
+{  z-index: 444;
+
+}
