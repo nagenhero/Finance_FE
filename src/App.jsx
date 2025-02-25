@@ -10,7 +10,7 @@ import Dashboard from "./pages/Dashboard";
 import Transaction from "./pages/Transaction";
 import { Auth } from "./auth/Auth";
 import { useEffect } from "react";
-import { NewLogin } from "./pages/NewLogin";
+import { NewLogin } from "./pages/newLogin";
 
 function App() {
   useEffect(() => {
